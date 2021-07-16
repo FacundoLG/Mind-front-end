@@ -1,0 +1,13 @@
+.icon {
+    color: white;
+}
+.searchIcon {
+    font-size: 20px;
+}
+.itemIcon {
+    margin-left: 10px;
+}
+.itemIcon:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}

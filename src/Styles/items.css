@@ -1,0 +1,38 @@
+.itemsTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    margin-top: 20px;
+}
+.itemsTop .inputContainer {
+    margin-bottom: 0px;
+    background: var(--main-color);
+    color: white;
+}
+.addContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: var(--main-color);
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    margin: 0px 5px;
+}
+.itemsContainer {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.item {
+    display: flex;
+    align-items: center;
+    background: var(--secondary-color);
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+}

@@ -1,6 +1,57 @@
-.Cart {
-    background: rgb(244, 90, 90);
+.cartContainer {
+    display: flex;
+    background: var(--main-color);
+    align-items: center;
+    transition: 200ms;
+    min-width: 300px;
+}
+.hide {
+    overflow-x: hidden;
+    width: 30px;
+    min-width: 0px;
+    transition: 200ms;
+}
+.cart {
     display: flex;
     height: 100vh;
     width: 100%;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.inputContainer {
+    display: flex;
+    align-items: center;
+    background: rgba(46, 46, 46, 0.276);
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    height: 30px;
+    width: 80%;
+    max-width: 280px;
+}
+.arrow {
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 10px;
+    background: var(--main-color);
+    padding: 4px;
+    width: 30px;
+    color: white;
+}
+.inputContainer input {
+    width: 100%;
+    height: 80%;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    margin: 0px 4px;
+}
+.inputContainer input::placeholder {
+    color: rgba(255, 255, 255, 0.77);
+    font-size: 15px;
 }

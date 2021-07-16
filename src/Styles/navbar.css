@@ -1,0 +1,54 @@
+.NavBar {
+    display: flex;
+    width: 100%;
+    padding: 0px 10px;
+    background: rgb(255, 194, 161);
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+.userImg {
+    background: #000;
+    margin: 2px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+.router {
+    display: flex;
+    list-style-type: none;
+}
+.router div {
+    text-decoration: none;
+    margin: 0px 5px;
+    width: 40px;
+    height: 40px;
+    background: #000;
+    border-radius: 20px;
+}
+.logOut {
+    background: #000;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+@media (max-width: 500px) {
+    .NavBar {
+        flex-direction: column;
+        width: 60px;
+        align-items: center;
+        height: 100vh;
+        padding: 0px;
+    }
+    .router {
+        flex-direction: column;
+        width: 60px;
+        align-items: center;
+    }
+    .router div {
+        margin: 10px 0px;
+    }
+    .logOut {
+        margin-bottom: 5px;
+    }
+}
